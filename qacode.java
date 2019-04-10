@@ -12,7 +12,7 @@ public class qacode {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
-		URL url = new URL("https://restcountries.eu/rest/v2/all");
+		URL url = new URL("https://restcountries.eu/rest/v2/name/Colombia?fields=capital");
 		
 		String query = ("united");
 		
